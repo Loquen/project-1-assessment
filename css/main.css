@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+button{
+  display: block;
+}
+
+.main{  
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+} 
+
+div.input-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#num{
+  text-align: center;
+  height: 60px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: black;
+  border: 5px solid #a8a8a8;
+}
+
+/* #count{
+  color: black;
+} */
+
+button{
+  margin: 20px;
+  padding: 10px 20px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #a8a8a8;
+  border: 5px solid #a8a8a8;
+}
+
+button:hover{
+  background-color: white;
+  color: #a8a8a8;
+  
+}
+
+.negative{
+  color: red;
+}
